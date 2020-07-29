@@ -5,10 +5,10 @@ const mysql = require('mysql');
 // 配置 mysql 连接池
 const pool = mysql.createPool({
   user: 'root',
-  password: 'Dj.249575',
+  password: '',
   port: '3306',
-  database: 'mwwow',
-  host: '212.64.78.155',
+  database: '',
+  host: '',
 });
 
 /**
